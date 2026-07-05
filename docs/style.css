@@ -1,7 +1,57 @@
 :root {
-
+  --bg: #eeeeee;
+  --fg: #222222;
+  --primary: #2288ee;
+  --secondary: #bbbbbb;
 }
 
 body {
+  font-family: monospace;
+  color: var(--fg);
+  background-color: var(--bg);
+}
 
+p {
+  font-size: large;
+}
+
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
+
+a {
+  color: var(--fg);
+}
+
+
+
+.navbar {
+  background-color: var(--primary);
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--secondary);
+  padding: 0.5em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.butn {
+  background-color: var(--primary);
+  padding: 0.5em;
+  border-radius: 10px;
+  color: var(--fg);
+  font-size: large;
+  font-family: monospace;
+  border: none;
 }
